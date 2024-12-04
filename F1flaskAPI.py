@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "round": "R24.ABU DHABI",
+        round: "R24.ABU DHABI",
         "date":"06-08",
         "month":"DEC",
         "flag":"🇦🇪",
